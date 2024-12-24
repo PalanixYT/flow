@@ -74,7 +74,17 @@
         "line_numbers": "relative",
         "cursor": "underline",
         "press": [
-            ["<Esc>", "enter_mode", "normal"]
+            ["<Esc>", "enter_mode", "normal"],
+						["j", "select_up"],
+						["k", "select_down"],
+						["l", "select_left"],
+						["h", "select_right"],
+						["0", "select_begin"],
+						["<S-4>", "select_end"],
+						["G", "select_buffer_end"],
+						["gg", "select_buffer_begin"],
+						["w", "select_word_right"],
+						["b", "select_word_left"]
         ]
     },
     "insert": {
